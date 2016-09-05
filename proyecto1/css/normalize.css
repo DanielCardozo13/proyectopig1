@@ -1,0 +1,114 @@
+
+body{
+	background-image: url("../imagenes/Colombia.jpg");
+	padding         : 3%;
+} /*fin body*/
+
+header{	
+	background-image   : url("../imagenes/para_nav.jpg");
+	text-align: center;	
+	border-radius      : 10px;
+} /*fin header*/
+
+
+
+.letra_borde_blanco{
+	font-weight: bold;
+	text-shadow: 
+	-4px -1px 0 #fff,
+	1px -1px 0 #fff,
+	-1px 1px 0 #fff,
+	1px 1px 0 #fff;
+}  /*fin letra con borde blanco*/
+
+audio{
+	width: 100%;
+	padding: 0 3% 0 3%;
+
+}
+
+#form_login{
+	padding-top: 5%;
+}
+
+
+h2{
+	font-size: 41px;
+	font-weight: bold;
+	font-style: italic;
+	margin-top: 0;
+	margin-left: 2%;
+}
+
+img{
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+p{
+	line-height: 150%;
+	margin: 3% 3% 3% 3%;
+	text-align: justify;
+	font-size: 20px;
+}
+
+section
+{
+	float       : left;
+	height      : auto;
+	width       : 85%;
+	margin-top  : 4%;
+	padding-left: 3%;
+} /*fin section */
+
+article{
+	border-radius   : 10px;
+	background-color: #DFDFDF;
+	margin-bottom: 3%;
+	padding: 2% 0 5% 0;
+}
+
+nav
+{	
+	background-image: url("../imagenes/para_nav.jpg");
+	float           : left;
+	height          : 40%;
+	width           : 15%;
+	padding         : 0px;
+	border-radius   : 10px;
+	margin-top      : 4%;
+} /*fin nav*/
+
+a{
+	font-weight: bold;
+	font-style : oblique;
+} /*fin a*/
+
+ul{
+	list-style-type: none;
+	color      : beige;
+} /*fin ul*/
+
+td{
+	width: 1%;
+	height: 60px;
+}
+
+footer
+{
+	background-image   : url("../imagenes/para_nav.jpg");
+	background-position: bottom;
+	text-align         : right;
+	padding            : 3%;
+	height             : 140px;
+	width              : 100%;
+	border-radius      : 10px;
+	margin-top         : 4%;
+	font-size: 20px;
+
+	font-weight: bold;
+} /*fin footer*/
+
+.clearfix {
+	overflow-y	: auto;
+} /*fin clearfix*/
